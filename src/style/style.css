@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.animes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    list-style: none;
+    grid-gap: 1.5rem;
+}
+
+.list-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.animes-list img {
+    max-width: 100%;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
